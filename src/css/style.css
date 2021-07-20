@@ -148,7 +148,8 @@ nav {
 }
 
 .reasons {
-    height: 100px;
+    min-height: 897px;
+    padding: 18px 0 67px 0;
 }
 
 .reasons .reasons_advantages {
@@ -162,4 +163,67 @@ nav {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.reasons .reasons_subheader {
+    margin-top: 33px;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reasons .row {
+    margin-top: 16px;
+}
+
+.reasons .reason {
+    min-height: 176px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reasons .reason .reason_icon {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background-color: #1EACC7;
+    border-radius: 100%;
+}
+
+.reasons .reason:last-of-type .reason_icon {
+    margin-top: 0;
+}
+
+.reasons .reason .reason_icon img {
+    display: block;
+    margin: 0 auto;
+}
+
+.reasons .reason .reason_descr {
+    width: 371px;
+}
+
+.reasons .reason .reason_descr.sec {
+    width: 340px;
+}
+
+.reasons .reason .reason_descr .reason_subheader {
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.reasons .reason .reason_descr .reason_text {
+    margin-top: 6px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
 }
